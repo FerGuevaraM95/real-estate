@@ -1,0 +1,15 @@
+//====================================
+// Media Queries
+//====================================
+@media (min-width:992px) {
+    .header .bar {
+        grid-template-columns: 30% 1fr 30%;
+        grid-template-rows: unset;
+        justify-content: space-around;
+    }
+    .menu {
+        display: grid;
+        grid-column: 3 / 4;
+        align-content: center;
+    }
+}
