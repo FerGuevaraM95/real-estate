@@ -5,6 +5,10 @@ html {
     box-sizing: border-box;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: $primaryFont;
     background-color: $gray;
@@ -22,6 +26,14 @@ h1 {
     font-size: 2.4rem;
 }
 
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
 p {
     font-size: 1.2rem;
     font-weight: 300;
@@ -35,4 +47,20 @@ img {
 .container {
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.button {
+    display: block;
+    padding: $padding;
+    border: 1px solid $primary;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: $primary;
+    color: $white;
+    transition: all .5s ease-in-out;
+    &:hover {
+        background-color: $white;
+        color: $primary;
+    }
 }
