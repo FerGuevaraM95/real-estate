@@ -25,4 +25,9 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, auto);
     }
+    .footer .container {
+        display: grid;
+        grid-template-columns: 30% 20% 2fr;
+        grid-column-gap: 2rem;
+    }
 }
