@@ -1,9 +1,10 @@
-# Workflow
+# Bienes raíces.
 ---
 
 ## Descripción
 
-Workflow para landing pages.
+Maqueta de un sitio web de Bienes Raíces. Con Css grid
+[Página](https://FerGuevaraM95.github.io/real-estate/)
 
 ## Instalación
 
